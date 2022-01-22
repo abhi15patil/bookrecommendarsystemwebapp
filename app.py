@@ -23,7 +23,7 @@ st.title('Programming Book Recommendation System')
 col1, col2 = st.beta_columns(2)
 # taking book name as input
 with col1:
-    book = st.text_input('Enter book name that you liked : ')
+    book = st.text_input(''Book Name', df['Book_title'].values')
 
 # taking multiple fiels to get similarity
 with col2:
